@@ -1,6 +1,606 @@
 resume ect
 
 
+garfield@garfield-VirtualBox:~$ git int
+git: «int» не является командой git. Смотрите «git --help».
+
+Самые похожие команды:
+	init
+garfield@garfield-VirtualBox:~$ git init
+Переинициализирован существующий репозиторий Git в /home/garfield/.git/
+garfield@garfield-VirtualBox:~$ cd /var/www
+garfield@garfield-VirtualBox:/var/www$ git init 
+/var/www/.git: Отказано в доступе
+garfield@garfield-VirtualBox:/var/www$ git nautilus
+git: «nautilus» не является командой git. Смотрите «git --help».
+garfield@garfield-VirtualBox:/var/www$ sudo systemctl stop nginx
+[sudo] пароль для garfield: 
+garfield@garfield-VirtualBox:/var/www$ git init 
+/var/www/.git: Отказано в доступе
+garfield@garfield-VirtualBox:/var/www$ sudo nautilus
+
+(org.gnome.Nautilus:4152): libunity-CRITICAL **: 23:50:08.880: file unity-launcher.c: line 1638: unexpected error: Не удалось выполнить дочерний процесс "dbus-launch" (Нет такого файла или каталога) (g-exec-error-quark, 8)
+
+(org.gnome.Nautilus:4152): libunity-CRITICAL **: 23:50:08.880: unity_launcher_entry_dbus_impl_construct: assertion 'conn != NULL' failed
+
+(org.gnome.Nautilus:4152): libunity-CRITICAL **: 23:50:08.882: unity-inspector.vala:96: Unable to connect to session bus: Не удалось выполнить дочерний процесс "dbus-launch" (Нет такого файла или каталога)
+
+(org.gnome.Nautilus:4152): dconf-WARNING **: 23:50:09.039: failed to commit changes to dconf: Не удалось выполнить дочерний процесс "dbus-launch" (Нет такого файла или каталога)
+
+(org.gnome.Nautilus:4152): dconf-WARNING **: 23:50:09.039: failed to commit changes to dconf: Не удалось выполнить дочерний процесс "dbus-launch" (Нет такого файла или каталога)
+
+** (org.gnome.Nautilus:4152): WARNING **: 23:50:09.104: Unable to get contents of the bookmarks file: Произошла ошибка открытия файла /root/.gtk-bookmarks: Нет такого файла или каталога
+
+** (org.gnome.Nautilus:4152): WARNING **: 23:50:09.105: Unable to get contents of the bookmarks file: Произошла ошибка открытия файла /root/.gtk-bookmarks: Нет такого файла или каталога
+
+** (org.gnome.Nautilus:4152): CRITICAL **: 23:50:09.216: update_dbus_opened_locations: assertion 'dbus_object_path' failed
+
+(org.gnome.Nautilus:4152): dconf-WARNING **: 23:50:09.216: failed to commit changes to dconf: Не удалось выполнить дочерний процесс "dbus-launch" (Нет такого файла или каталога)
+Nautilus-Share-Message: 23:50:09.285: Called "net usershare info" but it failed: Не удалось выполнить дочерний процесс "net" (Нет такого файла или каталога)
+
+** (org.gnome.Nautilus:4152): CRITICAL **: 23:50:15.691: update_dbus_opened_locations: assertion 'dbus_object_path' failed
+
+** (org.gnome.Nautilus:4152): CRITICAL **: 23:50:16.529: update_dbus_opened_locations: assertion 'dbus_object_path' failed
+
+(org.gnome.Nautilus:4152): dconf-WARNING **: 23:50:16.530: failed to commit changes to dconf: Не удалось выполнить дочерний процесс "dbus-launch" (Нет такого файла или каталога)
+
+(org.gnome.Nautilus:4152): GLib-GIO-CRITICAL **: 23:50:17.974: g_dbus_proxy_new_sync: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(org.gnome.Nautilus:4152): GLib-GIO-CRITICAL **: 23:50:17.975: g_dbus_proxy_get_cached_property: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+** (org.gnome.Nautilus:4152): CRITICAL **: 23:50:18.296: update_dbus_opened_locations: assertion 'dbus_object_path' failed
+
+(org.gnome.Nautilus:4152): dconf-WARNING **: 23:50:18.297: failed to commit changes to dconf: Не удалось выполнить дочерний процесс "dbus-launch" (Нет такого файла или каталога)
+
+(org.gnome.Nautilus:4152): GLib-GIO-CRITICAL **: 23:50:19.185: g_dbus_proxy_new_sync: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(org.gnome.Nautilus:4152): GLib-GIO-CRITICAL **: 23:50:19.185: g_dbus_proxy_get_cached_property: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+** (org.gnome.Nautilus:4152): CRITICAL **: 23:50:19.509: update_dbus_opened_locations: assertion 'dbus_object_path' failed
+
+(org.gnome.Nautilus:4152): dconf-WARNING **: 23:50:19.509: failed to commit changes to dconf: Не удалось выполнить дочерний процесс "dbus-launch" (Нет такого файла или каталога)
+
+(org.gnome.Nautilus:4152): GLib-GIO-CRITICAL **: 23:50:24.778: g_dbus_proxy_new_sync: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(org.gnome.Nautilus:4152): GLib-GIO-CRITICAL **: 23:50:24.779: g_dbus_proxy_get_cached_property: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+** (org.gnome.Nautilus:4152): CRITICAL **: 23:50:25.054: update_dbus_opened_locations: assertion 'dbus_object_path' failed
+
+(org.gnome.Nautilus:4152): dconf-WARNING **: 23:50:25.054: failed to commit changes to dconf: Не удалось выполнить дочерний процесс "dbus-launch" (Нет такого файла или каталога)
+
+(org.gnome.Nautilus:4152): GLib-GIO-CRITICAL **: 23:50:35.903: g_dbus_proxy_new_sync: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(org.gnome.Nautilus:4152): GLib-GIO-CRITICAL **: 23:50:35.903: g_dbus_proxy_get_cached_property: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+** (org.gnome.Nautilus:4152): CRITICAL **: 23:50:36.122: update_dbus_opened_locations: assertion 'dbus_object_path' failed
+
+(org.gnome.Nautilus:4152): dconf-WARNING **: 23:50:36.123: failed to commit changes to dconf: Не удалось выполнить дочерний процесс "dbus-launch" (Нет такого файла или каталога)
+
+** (org.gnome.Nautilus:4152): CRITICAL **: 23:50:41.771: update_dbus_opened_locations: assertion 'dbus_object_path' failed
+
+(org.gnome.Nautilus:4152): dconf-WARNING **: 23:50:41.771: failed to commit changes to dconf: Не удалось выполнить дочерний процесс "dbus-launch" (Нет такого файла или каталога)
+
+(org.gnome.Nautilus:4152): GLib-GIO-CRITICAL **: 23:50:41.894: g_dbus_proxy_new_sync: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(org.gnome.Nautilus:4152): GLib-GIO-CRITICAL **: 23:50:41.894: g_dbus_proxy_get_cached_property: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(org.gnome.Nautilus:4152): GLib-GIO-CRITICAL **: 23:50:42.680: g_dbus_proxy_new_sync: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(org.gnome.Nautilus:4152): GLib-GIO-CRITICAL **: 23:50:42.681: g_dbus_proxy_get_cached_property: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+** (org.gnome.Nautilus:4152): CRITICAL **: 23:51:11.855: update_dbus_opened_locations: assertion 'dbus_object_path' failed
+
+(org.gnome.Nautilus:4152): dconf-WARNING **: 23:51:11.856: failed to commit changes to dconf: Не удалось выполнить дочерний процесс "dbus-launch" (Нет такого файла или каталога)
+
+(org.gnome.Nautilus:4152): GLib-GIO-CRITICAL **: 23:51:11.980: g_dbus_proxy_new_sync: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(org.gnome.Nautilus:4152): GLib-GIO-CRITICAL **: 23:51:11.981: g_dbus_proxy_get_cached_property: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(org.gnome.Nautilus:4152): GLib-GIO-CRITICAL **: 23:51:14.712: g_dbus_proxy_new_sync: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(org.gnome.Nautilus:4152): GLib-GIO-CRITICAL **: 23:51:14.712: g_dbus_proxy_get_cached_property: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+** (org.gnome.Nautilus:4152): CRITICAL **: 23:51:39.230: update_dbus_opened_locations: assertion 'dbus_object_path' failed
+
+(org.gnome.Nautilus:4152): dconf-WARNING **: 23:51:39.231: failed to commit changes to dconf: Не удалось выполнить дочерний процесс "dbus-launch" (Нет такого файла или каталога)
+
+(org.gnome.Nautilus:4152): GLib-GIO-CRITICAL **: 23:51:40.686: g_dbus_proxy_new_sync: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(org.gnome.Nautilus:4152): GLib-GIO-CRITICAL **: 23:51:40.686: g_dbus_proxy_get_cached_property: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+** (org.gnome.Nautilus:4152): CRITICAL **: 23:51:40.927: update_dbus_opened_locations: assertion 'dbus_object_path' failed
+
+(org.gnome.Nautilus:4152): dconf-WARNING **: 23:51:40.928: failed to commit changes to dconf: Не удалось выполнить дочерний процесс "dbus-launch" (Нет такого файла или каталога)
+
+** (org.gnome.Nautilus:4152): CRITICAL **: 23:51:44.610: update_dbus_opened_locations: assertion 'dbus_object_path' failed
+
+(org.gnome.Nautilus:4152): dconf-WARNING **: 23:51:44.611: failed to commit changes to dconf: Не удалось выполнить дочерний процесс "dbus-launch" (Нет такого файла или каталога)
+
+(org.gnome.Nautilus:4152): GLib-GIO-CRITICAL **: 23:51:44.741: g_dbus_proxy_new_sync: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(org.gnome.Nautilus:4152): GLib-GIO-CRITICAL **: 23:51:44.742: g_dbus_proxy_get_cached_property: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+** (org.gnome.Nautilus:4152): CRITICAL **: 23:51:49.640: update_dbus_opened_locations: assertion 'dbus_object_path' failed
+
+** (org.gnome.Nautilus:4152): CRITICAL **: 23:51:50.324: update_dbus_opened_locations: assertion 'dbus_object_path' failed
+
+(org.gnome.Nautilus:4152): dconf-WARNING **: 23:51:50.324: failed to commit changes to dconf: Не удалось выполнить дочерний процесс "dbus-launch" (Нет такого файла или каталога)
+
+(org.gnome.Nautilus:4152): dconf-WARNING **: 23:52:00.036: failed to commit changes to dconf: Не удалось выполнить дочерний процесс "dbus-launch" (Нет такого файла или каталога)
+
+(org.gnome.Nautilus:4152): dconf-WARNING **: 23:52:00.037: failed to commit changes to dconf: Не удалось выполнить дочерний процесс "dbus-launch" (Нет такого файла или каталога)
+
+** (org.gnome.Nautilus:4152): CRITICAL **: 23:52:00.041: update_dbus_opened_locations: assertion 'dbus_object_path' failed
+
+(org.gnome.Nautilus:4152): GLib-GIO-CRITICAL **: 23:52:00.078: g_dbus_proxy_new_sync: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(org.gnome.Nautilus:4152): GLib-GIO-CRITICAL **: 23:52:00.078: g_dbus_proxy_call_internal: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+garfield@garfield-VirtualBox:/var/www$ cd /home/garfield/Загрузки/resume
+garfield@garfield-VirtualBox:~/Загрузки/resume$ git init
+подсказка: Using 'master' as the name for the initial branch. This default branch name
+подсказка: is subject to change. To configure the initial branch name to use in all
+подсказка: of your new repositories, which will suppress this warning, call:
+подсказка: 
+подсказка: 	git config --global init.defaultBranch <name>
+подсказка: 
+подсказка: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+подсказка: 'development'. The just-created branch can be renamed via this command:
+подсказка: 
+подсказка: 	git branch -m <name>
+Инициализирован пустой репозиторий Git в /home/garfield/Загрузки/resume/.git/
+garfield@garfield-VirtualBox:~/Загрузки/resume$ git add .
+garfield@garfield-VirtualBox:~/Загрузки/resume$ git status 
+На ветке master
+
+Еще нет коммитов
+
+Изменения, которые будут включены в коммит:
+  (используйте «git rm --cached <файл>…», чтобы убрать из индекса)
+	новый файл:    .DS_Store
+	новый файл:    .editorconfig
+	новый файл:    .gitattributes
+	новый файл:    .gitignore
+	новый файл:    .htaccess
+	новый файл:    .idea/.gitignore
+	новый файл:    .idea/inspectionProfiles/Project_Default.xml
+	новый файл:    .idea/inspectionProfiles/profiles_settings.xml
+	новый файл:    .idea/modules.xml
+	новый файл:    .idea/resume.iml
+	новый файл:    404.html
+	новый файл:    LICENSE.txt
+	новый файл:    browserconfig.xml
+	новый файл:    doc/TOC.md
+	новый файл:    doc/css.md
+	новый файл:    doc/extend.md
+	новый файл:    doc/faq.md
+	новый файл:    doc/html.md
+	новый файл:    doc/js.md
+	новый файл:    doc/misc.md
+	новый файл:    doc/usage.md
+	новый файл:    favicon.ico
+	новый файл:    humans.txt
+	новый файл:    icon.png
+	новый файл:    img/.DS_Store
+	новый файл:    img/.gitignore
+	новый файл:    index.html
+	новый файл:    js/main.js
+	новый файл:    js/plugins.js
+	новый файл:    js/vendor/modernizr-3.11.2.min.js
+	новый файл:    package-lock.json
+	новый файл:    package.json
+	новый файл:    resume/.DS_Store
+	новый файл:    resume/main.css
+	новый файл:    resume/normalize.css
+	новый файл:    resume/photo/photo.JPG
+	новый файл:    resume/resume1.html
+	новый файл:    resume/style.css
+	новый файл:    resume1/photo.JPG
+	новый файл:    resume1/resume.html
+	новый файл:    robots.txt
+	новый файл:    site.webmanifest
+	новый файл:    tile-wide.png
+	новый файл:    tile.png
+
+garfield@garfield-VirtualBox:~/Загрузки/resume$ git commit -m "add all file, it's my resume"
+[master (корневой коммит) 1ec13ef] add all file, it's my resume
+ 44 files changed, 11403 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 .editorconfig
+ create mode 100644 .gitattributes
+ create mode 100644 .gitignore
+ create mode 100644 .htaccess
+ create mode 100644 .idea/.gitignore
+ create mode 100644 .idea/inspectionProfiles/Project_Default.xml
+ create mode 100644 .idea/inspectionProfiles/profiles_settings.xml
+ create mode 100644 .idea/modules.xml
+ create mode 100644 .idea/resume.iml
+ create mode 100644 404.html
+ create mode 100644 LICENSE.txt
+ create mode 100644 browserconfig.xml
+ create mode 100644 doc/TOC.md
+ create mode 100644 doc/css.md
+ create mode 100644 doc/extend.md
+ create mode 100644 doc/faq.md
+ create mode 100644 doc/html.md
+ create mode 100644 doc/js.md
+ create mode 100644 doc/misc.md
+ create mode 100644 doc/usage.md
+ create mode 100644 favicon.ico
+ create mode 100644 humans.txt
+ create mode 100644 icon.png
+ create mode 100644 img/.DS_Store
+ create mode 100644 img/.gitignore
+ create mode 100644 index.html
+ create mode 100644 js/main.js
+ create mode 100644 js/plugins.js
+ create mode 100644 js/vendor/modernizr-3.11.2.min.js
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+ create mode 100644 resume/.DS_Store
+ create mode 100644 resume/main.css
+ create mode 100644 resume/normalize.css
+ create mode 100644 resume/photo/photo.JPG
+ create mode 100644 resume/resume1.html
+ create mode 100644 resume/style.css
+ create mode 100644 resume1/photo.JPG
+ create mode 100644 resume1/resume.html
+ create mode 100644 robots.txt
+ create mode 100644 site.webmanifest
+ create mode 100644 tile-wide.png
+ create mode 100644 tile.png
+garfield@garfield-VirtualBox:~/Загрузки/resume$ git log
+commit 1ec13ef72d61c9bcb182392f8e89a01cb1ddc2ca (HEAD -> master)
+Author: Lolli <shox2524@gmail.com>
+Date:   Tue Nov 29 00:03:02 2022 +0300
+
+    add all file, it's my resume
+garfield@garfield-VirtualBox:~/Загрузки/resume$ git log --oneline
+1ec13ef (HEAD -> master) add all file, it's my resume
+garfield@garfield-VirtualBox:~/Загрузки/resume$ git checkout 1ec13ef
+Note: switching to '1ec13ef'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD сейчас на 1ec13ef add all file, it's my resume
+garfield@garfield-VirtualBox:~/Загрузки/resume$ git checkout master
+Переключено на ветку «master»
+garfield@garfield-VirtualBox:~/Загрузки/resume$ git remote add origin https://github.com/GARfielD8/lab2.git
+garfield@garfield-VirtualBox:~/Загрузки/resume$ git origin
+git: «origin» не является командой git. Смотрите «git --help».
+garfield@garfield-VirtualBox:~/Загрузки/resume$ git remote
+origin
+garfield@garfield-VirtualBox:~/Загрузки/resume$ git push -u origin main master
+error: src refspec main does not match any
+error: не удалось отправить некоторые ссылки в «https://github.com/GARfielD8/lab2.git»
+garfield@garfield-VirtualBox:~/Загрузки/resume$ git push -u origin master
+Username for 'https://github.com': GARfielD8
+Password for 'https://GARfielD8@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/GARfielD8/lab2.git/'
+garfield@garfield-VirtualBox:~/Загрузки/resume$ git push -u origin master
+Username for 'https://github.com': GARfielD8
+Password for 'https://GARfielD8@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/GARfielD8/lab2.git/'
+garfield@garfield-VirtualBox:~/Загрузки/resume$ git remote add origin https://github.com/GARfielD8/lab2.git
+error: внешний репозиторий origin уже существует
+garfield@garfield-VirtualBox:~/Загрузки/resume$ git push -u origin main 
+error: src refspec main does not match any
+error: не удалось отправить некоторые ссылки в «https://github.com/GARfielD8/lab2.git»
+garfield@garfield-VirtualBox:~/Загрузки/resume$ git push -u origin master
+Username for 'https://github.com': GARfielD8 
+Password for 'https://GARfielD8@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/GARfielD8/lab2.git/'
+garfield@garfield-VirtualBox:~/Загрузки/resume$ git push -u origin master
+Username for 'https://github.com': GARfielD8
+Password for 'https://GARfielD8@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/GARfielD8/lab2.git/'
+garfield@garfield-VirtualBox:~/Загрузки/resume$ git push -u origin master
+Username for 'https://github.com': GARfielD8
+Password for 'https://GARfielD8@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/GARfielD8/lab2.git/'
+garfield@garfield-VirtualBox:~/Загрузки/resume$ git --version
+git version 2.34.1
+garfield@garfield-VirtualBox:~/Загрузки/resume$ git config --global user.name elmuradov
+garfield@garfield-VirtualBox:~/Загрузки/resume$ git config --global user.email elmuradov01@gmail.com
+garfield@garfield-VirtualBox:~/Загрузки/resume$ git config --global color.ul auto
+garfield@garfield-VirtualBox:~/Загрузки/resume$ git config --list
+user.email=elmuradov01@gmail.com
+user.name=elmuradov
+color.ul=auto
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.origin.url=https://github.com/GARfielD8/lab2.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+garfield@garfield-VirtualBox:~/Загрузки/resume$ cd /home/garfield/Рабочий стол
+bash: cd: слишком много аргументов
+garfield@garfield-VirtualBox:~/Загрузки/resume$ cd /home/garfield/Рабочий стол
+bash: cd: слишком много аргументов
+garfield@garfield-VirtualBox:~/Загрузки/resume$ pwd
+/home/garfield/Загрузки/resume
+garfield@garfield-VirtualBox:~/Загрузки/resume$ cd 
+garfield@garfield-VirtualBox:~$ cd /home/garfield/Рабочий стол
+bash: cd: слишком много аргументов
+garfield@garfield-VirtualBox:~$ ls
+ snap    Документы   Изображения   Общедоступные   Шаблоны
+ Видео   Загрузки    Музыка       'Рабочий стол'
+garfield@garfield-VirtualBox:~$ cd /home/garfield/'Рабочий стол'
+garfield@garfield-VirtualBox:~/Рабочий стол$ git config --list
+user.email=elmuradov01@gmail.com
+user.name=elmuradov
+color.ul=auto
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.origin.url=https://github.com/GARfielD8/TP_lab.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+garfield@garfield-VirtualBox:~/Рабочий стол$ git init
+подсказка: Using 'master' as the name for the initial branch. This default branch name
+подсказка: is subject to change. To configure the initial branch name to use in all
+подсказка: of your new repositories, which will suppress this warning, call:
+подсказка: 
+подсказка: 	git config --global init.defaultBranch <name>
+подсказка: 
+подсказка: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+подсказка: 'development'. The just-created branch can be renamed via this command:
+подсказка: 
+подсказка: 	git branch -m <name>
+Инициализирован пустой репозиторий Git в /home/garfield/Рабочий стол/.git/
+garfield@garfield-VirtualBox:~/Рабочий стол$ git add .
+garfield@garfield-VirtualBox:~/Рабочий стол$ git status
+На ветке master
+
+Еще нет коммитов
+
+Изменения, которые будут включены в коммит:
+  (используйте «git rm --cached <файл>…», чтобы убрать из индекса)
+	новый файл:    resume/.DS_Store
+	новый файл:    resume/main.css
+	новый файл:    resume/normalize.css
+	новый файл:    resume/photo/photo.JPG
+	новый файл:    resume/resume1.html
+	новый файл:    resume/style.css
+
+garfield@garfield-VirtualBox:~/Рабочий стол$ git commit "add new first file" 
+error: pathspec 'add new first file' did not match any file(s) known to git
+garfield@garfield-VirtualBox:~/Рабочий стол$ git commit -m "add new first file" [master (корневой коммит) 72261d1] add new first file
+ 6 files changed, 746 insertions(+)
+ create mode 100644 resume/.DS_Store
+ create mode 100644 resume/main.css
+ create mode 100644 resume/normalize.css
+ create mode 100644 resume/photo/photo.JPG
+ create mode 100644 resume/resume1.html
+ create mode 100644 resume/style.css
+garfield@garfield-VirtualBox:~/Рабочий стол$ git log
+commit 72261d1dc1231e561b0a5c7e57eac036756b5759 (HEAD -> master)
+Author: elmuradov <elmuradov01@gmail.com>
+Date:   Tue Nov 29 00:54:23 2022 +0300
+
+    add new first file
+garfield@garfield-VirtualBox:~/Рабочий стол$ git remote add origin https://github.com/GARfielD8/lab2.git
+garfield@garfield-VirtualBox:~/Рабочий стол$ git push -u origin master
+Username for 'https://github.com': GARfielD8
+Password for 'https://GARfielD8@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/GARfielD8/lab2.git/'
+garfield@garfield-VirtualBox:~/Рабочий стол$ nano read.txt
+garfield@garfield-VirtualBox:~/Рабочий стол$ git log
+commit 72261d1dc1231e561b0a5c7e57eac036756b5759 (HEAD -> master)
+Author: elmuradov <elmuradov01@gmail.com>
+Date:   Tue Nov 29 00:54:23 2022 +0300
+
+    add new first file
+garfield@garfield-VirtualBox:~/Рабочий стол$ git reflog
+72261d1 (HEAD -> master) HEAD@{0}: commit (initial): add new first file
+garfield@garfield-VirtualBox:~/Рабочий стол$ ssh-keygen -t rsa -b 4096
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/garfield/.ssh/id_rsa): 
+Created directory '/home/garfield/.ssh'.
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/garfield/.ssh/id_rsa
+Your public key has been saved in /home/garfield/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:Sw2QvOXNPQNFQJSr++A13uHPX6mH3Iex7H3ljjA2/zE garfield@garfield-VirtualBox
+The key's randomart image is:
++---[RSA 4096]----+
+|     ... o+=o    |
+|      o.. o      |
+|       +.o +     |
+|      . .o+ +    |
+|        S..  o   |
+|       ...    . o|
+|        o.o B.oEo|
+|       ..+ = X==B|
+|        ..o o+B+B|
++----[SHA256]-----+
+garfield@garfield-VirtualBox:~/Рабочий стол$ ls .ssh
+ls: невозможно получить доступ к '.ssh': Нет такого файла или каталога
+garfield@garfield-VirtualBox:~/Рабочий стол$ cd
+garfield@garfield-VirtualBox:~$ ls .ssh
+id_rsa  id_rsa.pub
+garfield@garfield-VirtualBox:~$ cat .ssh/id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC5mK3rhmNrXEZqvNwPY2+NUXdQi5UOolK3c3DEj3Nx2jX9sWJP4Vmtt++bXKuaoX3YL5sowRnb+r5+RsVY7wBQs9Cf7izf/cyS+SqyWE7aniDVVl0aNQB79O9L9C8ZvClbvY9t5emGbF3HwYcqRc4jj28FUFzXmlQX4UatdcDVrm7lEs1wgVkfOk/9W2Yx9u2oJLgDNeMCKng8v5c/4w0SAZ0J9h0ej4oe9Vj+DJzFudXHXAxl04Na9mavSHP7ZSVVC6vG1aaJrbaLkt7c0VKA5Ec/rnDoxaX4QZCs7PIDGu+c1mdx51WDiO5jqhMxrOAybtrvVzC8f+SgtuxyMwO3UX9awIYwAFu8yk9cL0klcbBPKXUwqA60eVIxDu7juVoS0NJUFOepKhOI3Qkl4uLtoG3QeGoj0Zw2mNnQtHXjeYasYLa5a5erYCCX7DqMXwyISezU+GNjU23RUk9YnNS6rH44no5PH/Rxt4XPQSfX7sYeSdC2rQfm2xIipWU8urmIA/vv05V3w9jqKUgGbyu7AMndvNAQfspH9QTkKr2I1ZcnjZP4KMxz9leW6lt4zHkeQkV/Jq6KpNn8S/KflX1bIylBR9LfWrTNwZOJ4xjCHNZzhzQQ+xsdzeASK48qlCNxs91M+xmUvZh5MAqQA9cD9whPDSqte0Ke/3pvp0oovQ== garfield@garfield-VirtualBox
+garfield@garfield-VirtualBox:~$ git clone git@github.com:GARfielD8/lab2.git github
+Клонирование в «github»…
+The authenticity of host 'github.com (140.82.121.3)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? y
+Please type 'yes', 'no' or the fingerprint: yes
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+warning: Похоже, что вы клонировали пустой репозиторий.
+garfield@garfield-VirtualBox:~$ cd /home/garfield/'Рабочий стол'
+garfield@garfield-VirtualBox:~/Рабочий стол$ ls
+resume
+garfield@garfield-VirtualBox:~/Рабочий стол$ git status
+На ветке master
+нечего коммитить, нет изменений в рабочем каталоге
+garfield@garfield-VirtualBox:~/Рабочий стол$ git log
+commit 72261d1dc1231e561b0a5c7e57eac036756b5759 (HEAD -> master)
+Author: elmuradov <elmuradov01@gmail.com>
+Date:   Tue Nov 29 00:54:23 2022 +0300
+
+    add new first file
+garfield@garfield-VirtualBox:~/Рабочий стол$ git push
+fatal: Текущая ветка master не имеет вышестоящей ветки.
+Чтобы отправить текущую ветку и установить внешнюю ветку как вышестоящую для этой ветки, используйте
+
+    git push --set-upstream origin master
+
+garfield@garfield-VirtualBox:~/Рабочий стол$ git clone git@github.com:GARfielD8/lab2.git resume
+fatal: целевой путь «resume» уже существует и не является пустым каталогом.
+garfield@garfield-VirtualBox:~/Рабочий стол$ git remote add origin git@github.com:GARfielD8/lab2.git
+error: внешний репозиторий origin уже существует
+garfield@garfield-VirtualBox:~/Рабочий стол$ git push -u origin master
+Username for 'https://github.com': GARfielD8
+Password for 'https://GARfielD8@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/GARfielD8/lab2.git/'
+garfield@garfield-VirtualBox:~/Рабочий стол$ git push -u origin master
+Username for 'https://github.com': GARfielD8
+Password for 'https://GARfielD8@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/GARfielD8/lab2.git/'
+garfield@garfield-VirtualBox:~/Рабочий стол$ cd
+garfield@garfield-VirtualBox:~$ cd github
+garfield@garfield-VirtualBox:~/github$ ls
+garfield@garfield-VirtualBox:~/github$ git log
+fatal: ваша текущая ветка «main» еще не содержит ни одного коммита
+garfield@garfield-VirtualBox:~/github$ git add resume/
+fatal: спецификатор пути «resume/» не соответствует ни одному файлу
+garfield@garfield-VirtualBox:~/github$ git add cd resume/
+fatal: спецификатор пути «cd» не соответствует ни одному файлу
+garfield@garfield-VirtualBox:~/github$ touch github.txt
+garfield@garfield-VirtualBox:~/github$ nano github.txt
+garfield@garfield-VirtualBox:~/github$ git add .
+garfield@garfield-VirtualBox:~/github$ git commit -am 'add exc'
+[main (корневой коммит) be17bf5] add exc
+ 1 file changed, 8 insertions(+)
+ create mode 100644 github.txt
+garfield@garfield-VirtualBox:~/github$ git status
+На ветке main
+Ваша ветка базируется на «origin/main», но вышестоящий репозиторий исчез.
+  (для исправления запустите «git branch --unset-upstream»)
+
+нечего коммитить, нет изменений в рабочем каталоге
+garfield@garfield-VirtualBox:~/github$ git log --oneline
+be17bf5 (HEAD -> main) add exc
+garfield@garfield-VirtualBox:~/github$ git push
+Перечисление объектов: 3, готово.
+Подсчет объектов: 100% (3/3), готово.
+Запись объектов: 100% (3/3), 219 байтов | 219.00 КиБ/с, готово.
+Всего 3 (изменений 0), повторно использовано 0 (изменений 0), повторно использовано пакетов 0
+To github.com:GARfielD8/lab2.git
+ * [new branch]      main -> main
+garfield@garfield-VirtualBox:~/github$ cd
+garfield@garfield-VirtualBox:~$ git clone git@github.com:GARfielD8/TP_lab.git resume
+Клонирование в «resume»…
+warning: Похоже, что вы клонировали пустой репозиторий.
+garfield@garfield-VirtualBox:~$ cd resume
+garfield@garfield-VirtualBox:~/resume$ ls
+garfield@garfield-VirtualBox:~/resume$ git add .
+garfield@garfield-VirtualBox:~/resume$ ls
+garfield@garfield-VirtualBox:~/resume$ git log
+fatal: ваша текущая ветка «main» еще не содержит ни одного коммита
+garfield@garfield-VirtualBox:~/resume$ git log --oneline
+fatal: ваша текущая ветка «main» еще не содержит ни одного коммита
+garfield@garfield-VirtualBox:~/resume$ git init
+Переинициализирован существующий репозиторий Git в /home/garfield/resume/.git/
+garfield@garfield-VirtualBox:~/resume$ git add .
+garfield@garfield-VirtualBox:~/resume$ git log --oneline
+fatal: ваша текущая ветка «main» еще не содержит ни одного коммита
+garfield@garfield-VirtualBox:~/resume$ git status
+На ветке main
+
+Еще нет коммитов
+
+нечего коммитить (создайте/скопируйте файлы, затем запустите «git add», чтобы отслеживать их)
+garfield@garfield-VirtualBox:~/resume$ git push
+error: src refspec refs/heads/main does not match any
+error: не удалось отправить некоторые ссылки в «github.com:GARfielD8/TP_lab.git»
+garfield@garfield-VirtualBox:~/resume$ cd
+garfield@garfield-VirtualBox:~$ git init git@github.com:GARfielD8/TP_lab.git cd resume
+usage: git init [-q | --quiet] [--bare] [--template=<template-directory>] [--shared[=<permissions>]] [<directory>]
+garfield@garfield-VirtualBox:~$ resume
+resume: команда не найдена
+garfield@garfield-VirtualBox:~$ cd resume
+garfield@garfield-VirtualBox:~/resume$ ls
+garfield@garfield-VirtualBox:~/resume$ cd
+garfield@garfield-VirtualBox:~$ cd /home/garfield/'Рабочий стол'
+garfield@garfield-VirtualBox:~/Рабочий стол$ ls
+resume
+garfield@garfield-VirtualBox:~/Рабочий стол$ git status
+На ветке master
+нечего коммитить, нет изменений в рабочем каталоге
+garfield@garfield-VirtualBox:~/Рабочий стол$ git add .
+garfield@garfield-VirtualBox:~/Рабочий стол$ git status
+На ветке master
+нечего коммитить, нет изменений в рабочем каталоге
+garfield@garfield-VirtualBox:~/Рабочий стол$ git log --oneline
+72261d1 (HEAD -> master) add new first file
+garfield@garfield-VirtualBox:~/Рабочий стол$ git push
+fatal: Текущая ветка master не имеет вышестоящей ветки.
+Чтобы отправить текущую ветку и установить внешнюю ветку как вышестоящую для этой ветки, используйте
+
+    git push --set-upstream origin master
+
+garfield@garfield-VirtualBox:~/Рабочий стол$ git push --set-upstream origin master
+Username for 'https://github.com': GARfielD8
+Password for 'https://GARfielD8@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/GARfielD8/lab2.git/'
+garfield@garfield-VirtualBox:~/Рабочий стол$ git@github.com:GARfielD8/TP_lab.git 
+bash: git@github.com:GARfielD8/TP_lab.git: Нет такого файла или каталога
+garfield@garfield-VirtualBox:~/Рабочий стол$ git remote add origin git@github.com:GARfielD8/TP_lab.git
+error: внешний репозиторий origin уже существует
+garfield@garfield-VirtualBox:~/Рабочий стол$ git origin
+git: «origin» не является командой git. Смотрите «git --help».
+garfield@garfield-VirtualBox:~/Рабочий стол$ git master
+git: «master» не является командой git. Смотрите «git --help».
+
+Самые похожие команды:
+	restore
+garfield@garfield-VirtualBox:~/Рабочий стол$ git status
+На ветке master
+нечего коммитить, нет изменений в рабочем каталоге
+garfield@garfield-VirtualBox:~/Рабочий стол$ git remote add origin git@github.com:GARfielD8/TP_lab.git 
+error: внешний репозиторий origin уже существует
+garfield@garfield-VirtualBox:~/Рабочий стол$ git push -u origin master
+Username for 'https://github.com': GARfielD8
+Password for 'https://GARfielD8@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/GARfielD8/lab2.git/'
+garfield@garfield-VirtualBox:~/Рабочий стол$ 
 
 
 
